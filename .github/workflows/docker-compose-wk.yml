@@ -1,0 +1,23 @@
+name: Docker Compose
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted
+    environment: Docker
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Stop and remove existing Docker Compose services
+      run: |
+        sudo docker-compose -f docker-compose.yml down
+      continue-on-error: true
+
+    - name: Build and run Docker Compose
+      run: |
+        sudo docker-compose -f docker-compose.yml up -d --build
