@@ -17,7 +17,7 @@ $data = array(
 
 
 
-print_r($_SESSION['token']);
+// print_r($_SESSION['token']);
 
 
 $ch = curl_init();

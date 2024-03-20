@@ -1,0 +1,12 @@
+# Ignorar archivos y directorios específicos
+
+# Archivos de configuración de tu IDE (por ejemplo, Visual Studio Code)
+.vscode/
+
+# Archivos y directorios generados durante la construcción
+node_modules/
+
+# Archivos y directorios específicos de Docker
+.dockerignore
+Dockerfile
+docker-compose.yml

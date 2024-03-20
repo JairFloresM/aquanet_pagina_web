@@ -155,7 +155,7 @@ $zona_de_uso = explode(',',  $rpt['zona_de_uso']);
                 <div class="card-body">
                     <div class="chart-pie pt-4 pb-2">
 
-                        <img class="w-100 h-100" src="http://20.51.242.20/<?= $route_image ?>" alt="">
+                        <img class="w-100 h-100" src="<?= $route_image ?>" alt="">
                     </div>
                     <!-- <div class="mt-4 text-center small">
                         <span class="mr-2">

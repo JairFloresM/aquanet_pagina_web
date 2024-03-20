@@ -1,2 +1,3 @@
 <?php
-$url = "http://20.51.242.20/api/";
+$url = "https://aquanet.jairflor.com/api/";
+// $url = "http://127.0.0.1:4000/api/";
