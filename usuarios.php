@@ -9,8 +9,6 @@ require_once("middlewares/get_all_users.php");
 
     <!-- Page Heading -->
     <h1 class="h3 mb-2 text-gray-800">Usuarios</h1>
-    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-        For more information about DataTables, please visit the <a target="_blank" href="https://datatables.net">official DataTables documentation</a>.</p>
 
     <div class="mb-3 fs-5">
         <a class="btn btn-success btn-lg" id="new_user" href="middlewares/close_session.php" data-toggle="modal" data-target="#insertModal">

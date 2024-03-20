@@ -59,7 +59,7 @@ require_once("middlewares/get_current_user.php");
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3">Aquanet</div>
             </a>
 
             <!-- Divider -->
@@ -186,10 +186,10 @@ require_once("middlewares/get_current_user.php");
                 <?php
                 switch ($page_manager) {
 
-                    case 'dashboard':
-                        // print($page_manager);
-                        require_once("dashboard.php");
-                        break;
+                        // case 'dashboard':
+                        //     // print($page_manager);
+                        //     require_once("dashboard.php");
+                        //     break;
 
                     case 'reportes':
                         // print($page_manager);

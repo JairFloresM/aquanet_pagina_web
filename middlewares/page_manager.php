@@ -3,7 +3,7 @@
 $pagina = $_REQUEST['page'];
 
 if (is_null($pagina)) {
-    $pagina = 'dashboard';
+    $pagina = 'un_reporte';
 }
 
 
